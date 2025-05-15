@@ -724,19 +724,20 @@ module.exports = defineConfig({
 
 ## Key Features:
 ```
-Flexible Field Mapping: Handles different field names between API and DB
-Type Conversion: Automatically handles date comparisons
-Transaction Support: Verifies complex operations across multiple tables
-Count Verification: Validates record creation/deletion counts
-Soft Delete Support: Special handling for deleted_at fields
-Environment Config: Secure credential management
+- Flexible Field Mapping: Handles different field names between API and DB
+- Type Conversion: Automatically handles date comparisons
+- Transaction Support: Verifies complex operations across multiple tables
+- Count Verification: Validates record creation/deletion counts
+- Soft Delete Support: Special handling for deleted_at fields
+- Environment Config: Secure credential management
 ```
 ### Usage Tips:
 ```
-For sensitive data: Use cypress.env.json for database credentials
-For complex queries: Create custom task handlers in the plugin file
-For performance: Add query timeouts in your DB connection
-For CI/CD: Configure different DB credentials per environment
+- For sensitive data: Use cypress.env.json for database credentials
+- For complex queries: Create custom task handlers in the plugin file
+- For performance: Add query timeouts in your DB connection
+- For CI/CD: Configure different DB credentials per environment
+
 This boilerplate provides a solid foundation for API-database integration testing that you can extend for your specific database schema and API structure.
 ```
 
