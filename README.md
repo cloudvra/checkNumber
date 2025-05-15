@@ -1,4 +1,30 @@
 # Cypress API Automation Framework - Complete Guide
+## Cypress API Automation Framework
+
+A robust API testing framework built with Cypress, featuring OAuth 2.0 authentication, Zod schema validation, request templates with Faker.js, and support for both BDD (Cucumber) and standard test formats.
+
+## Features
+
+- 🔒 **OAuth 2.0 Integration**: Automatic token management with refresh logic
+- 🛡️ **Schema Validation**: Zod validation for requests and responses
+- � **Test Data Management**: Faker-powered request templates with override capability
+- 🥒 **Dual Test Formats**: Support for both Cucumber BDD and standard tests
+- 📊 **Comprehensive Reporting**: Multiple report formats including HTML and JSON
+- 🧩 **Modular Design**: Clean separation of concerns
+- ♻️ **Reusable Components**: Shared API client and auth logic
+
+## Prerequisites
+
+- Node.js v16+
+- npm v8+
+- Cypress v12+
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/cypress-api-framework.git
+   cd cypress-api-framework
 
 ## 1. Directory Structure
 ```bash
